@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+    document.write("<br>");
+    document.write("<br>");
+    }
+
+function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+    }
+
+
+    var limite = 100;
+
+    var numberPar = 2;
+
+    while(numberPar <= limite) {
+
+        mostra("O numero Par é " + numberPar);
+        numberPar = numberPar + 2;
+    }
+
+mostra("FIM");
+</script>
